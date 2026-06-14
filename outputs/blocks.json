@@ -1,0 +1,257 @@
+{
+  "source": "sample_pdf_to_markdown_note.pdf",
+  "generated_at": "2026-06-14T22:42:49",
+  "page_count": 3,
+  "pages": [
+    {
+      "page": 1,
+      "kind": "text",
+      "text_len": 265,
+      "n_images": 0,
+      "printed_page_no": 1,
+      "blocks": [
+        {
+          "block_id": "p1_b1",
+          "page": 1,
+          "type": "header",
+          "level": null,
+          "text": "XX公司 2026年半年度报告（节选）",
+          "font_size": 9.0,
+          "bbox": [
+            50.0,
+            32.5,
+            193.4,
+            44.3
+          ],
+          "is_ocr": false
+        },
+        {
+          "block_id": "p1_b2",
+          "page": 1,
+          "type": "heading",
+          "level": 1,
+          "text": "附注36 租赁负债",
+          "font_size": 18.0,
+          "bbox": [
+            50.0,
+            59.0,
+            184.4,
+            82.7
+          ],
+          "is_ocr": false
+        },
+        {
+          "block_id": "p1_b3",
+          "page": 1,
+          "type": "paragraph",
+          "level": null,
+          "text": "以下数据用于测试 PDF 转 Markdown、表格抽取、页码来源保留和 GT 候选审核。",
+          "font_size": 10.0,
+          "bbox": [
+            50.0,
+            97.4,
+            418.3,
+            110.6
+          ],
+          "is_ocr": false
+        },
+        {
+          "block_id": "p1_b4",
+          "page": 1,
+          "type": "heading",
+          "level": 2,
+          "text": "表36-1 租赁负债到期分析",
+          "font_size": 12.0,
+          "bbox": [
+            50.0,
+            125.3,
+            187.8,
+            141.1
+          ],
+          "is_ocr": false
+        },
+        {
+          "block_id": "p1_b5",
+          "page": 1,
+          "type": "note",
+          "level": null,
+          "text": "注：金额单位为百万元；合计数应等于各明细项目之和。",
+          "font_size": 9.0,
+          "bbox": [
+            50.0,
+            315.5,
+            275.0,
+            327.3
+          ],
+          "is_ocr": false
+        },
+        {
+          "block_id": "p1_b6",
+          "page": 1,
+          "type": "paragraph",
+          "level": null,
+          "text": "本附注与 Excel GT 核对时，需重点关注行名缺失、期间列识别、数值一致性和来源页码。",
+          "font_size": 10.0,
+          "bbox": [
+            50.0,
+            341.4,
+            445.9,
+            354.6
+          ],
+          "is_ocr": false
+        },
+        {
+          "block_id": "p1_b7",
+          "page": 1,
+          "type": "footer",
+          "level": null,
+          "text": "第 1 页",
+          "font_size": 9.0,
+          "bbox": [
+            50.0,
+            795.5,
+            78.6,
+            807.3
+          ],
+          "is_ocr": false
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "kind": "text",
+      "text_len": 297,
+      "n_images": 0,
+      "printed_page_no": 2,
+      "blocks": [
+        {
+          "block_id": "p2_b1",
+          "page": 2,
+          "type": "header",
+          "level": null,
+          "text": "XX公司 2026年半年度报告（节选）",
+          "font_size": 9.0,
+          "bbox": [
+            50.0,
+            32.5,
+            193.4,
+            44.3
+          ],
+          "is_ocr": false
+        },
+        {
+          "block_id": "p2_b2",
+          "page": 2,
+          "type": "heading",
+          "level": 1,
+          "text": "附注37 应付职工薪酬",
+          "font_size": 18.0,
+          "bbox": [
+            50.0,
+            59.0,
+            220.4,
+            82.7
+          ],
+          "is_ocr": false
+        },
+        {
+          "block_id": "p2_b3",
+          "page": 2,
+          "type": "heading",
+          "level": 2,
+          "text": "表37-1 职工薪酬明细",
+          "font_size": 12.0,
+          "bbox": [
+            50.0,
+            97.3,
+            163.8,
+            113.1
+          ],
+          "is_ocr": false
+        },
+        {
+          "block_id": "p2_b4",
+          "page": 2,
+          "type": "note",
+          "level": null,
+          "text": "补充说明：本表中的“工资、奖金、津贴和补贴”在部分 Excel 中可能被拆成两行，审核时需判断是否为同一口径。",
+          "font_size": 9.0,
+          "bbox": [
+            50.0,
+            302.5,
+            508.8,
+            314.3
+          ],
+          "is_ocr": false
+        },
+        {
+          "block_id": "p2_b5",
+          "page": 2,
+          "type": "note",
+          "level": null,
+          "text": "脚注：如果 PDF 与 Excel 金额不一致，不要直接补入 final_gt，应先标记为 NEED_RECHECK。",
+          "font_size": 9.0,
+          "bbox": [
+            50.0,
+            328.5,
+            429.6,
+            340.3
+          ],
+          "is_ocr": false
+        },
+        {
+          "block_id": "p2_b6",
+          "page": 2,
+          "type": "footer",
+          "level": null,
+          "text": "第 2 页",
+          "font_size": 9.0,
+          "bbox": [
+            50.0,
+            795.5,
+            78.6,
+            807.3
+          ],
+          "is_ocr": false
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "kind": "scanned",
+      "text_len": 10,
+      "n_images": 1,
+      "printed_page_no": 3,
+      "blocks": [
+        {
+          "block_id": "p3_ocr",
+          "page": 3,
+          "type": "scanned_page",
+          "level": null,
+          "text": "附注38 预计负债（扫描页示例） 本页故意做成图片，无文字层，用于测试 OCR fallback 和人工复核提示。 表38-1 预计负债变动 | 项目 | 期初余额 | 期末余额 | | --- | --- | --- | | 产品质量保证 | 15.00 | 18.20 | | 未决诉讼 | 8.50 | 7.80 | | 合计 | 23.50 | 26.00 | 注：扫描页的表格必须标记为 OCR 结果，关键数字需人工复核。 第3页（图片页）",
+          "raw_ocr_markdown": "附注38 预计负债（扫描页示例）\n本页故意做成图片，无文字层，用于测试 OCR fallback 和人工复核提示。\n表38-1 预计负债变动\n| 项目 | 期初余额 | 期末余额 |\n| --- | --- | --- |\n| 产品质量保证 | 15.00 | 18.20 |\n| 未决诉讼 | 8.50 | 7.80 |\n| 合计 | 23.50 | 26.00 |\n注：扫描页的表格必须标记为 OCR 结果，关键数字需人工复核。\n第3页（图片页）",
+          "bbox": [
+            0.0,
+            0.0,
+            595.0,
+            842.0
+          ],
+          "is_ocr": true,
+          "needs_ocr": true,
+          "ocr_engine": "PaddlePaddle/PaddleOCR-VL-1.5",
+          "ocr_confidence": null,
+          "ocr_note": "VLM OCR 无逐字置信度, 关键数值一律 NEED_RECHECK"
+        }
+      ],
+      "ocr_meta": {
+        "engine": "PaddlePaddle/PaddleOCR-VL-1.5",
+        "via": "SiliconFlow",
+        "usage": {
+          "prompt_tokens": 1428,
+          "completion_tokens": 139,
+          "total_tokens": 1567
+        }
+      }
+    }
+  ]
+}

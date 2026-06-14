@@ -1,0 +1,9 @@
+# PDF -> Markdown 最小系统依赖
+PyMuPDF>=1.24        # 文字层探测、文本块抽取(字号/bbox)、扫描页渲染为图片
+pdfplumber>=0.11     # 文字页表格抽取
+requests>=2.31       # 调用硅基流动 PaddleOCR-VL(OpenAI 兼容接口)
+python-dotenv>=1.0   # 从 .env 读取 SILICONFLOW_API_KEY
+
+# 扫描页 OCR 使用硅基流动 (SiliconFlow) 上的 PaddlePaddle/PaddleOCR-VL-1.5,
+# 无需本地安装 tesseract; 只需在 .env 中配置 SILICONFLOW_API_KEY。
+# 若不想用 OCR, 用 --no-ocr 运行, 扫描页仅标记 needs_ocr=true。
